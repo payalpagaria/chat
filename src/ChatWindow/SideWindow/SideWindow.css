@@ -1,0 +1,29 @@
+.Sidewindow{
+    width: 25vw !important;
+    height: 90vh !important;
+}
+.sideheader{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1vh;
+    padding: 1vh;
+}
+.sideheader-v1{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1vh;
+
+}
+.title-st{
+    padding: 1vh;
+}
+.tabs{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vh;
+}

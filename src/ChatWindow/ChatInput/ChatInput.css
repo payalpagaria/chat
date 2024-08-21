@@ -1,0 +1,28 @@
+.outer-input-box{
+    display: flex;
+    flex-direction: column;
+}
+.outer-input-box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.message-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.card-style-right{
+    min-height: 3rem;
+    width: 15rem;
+    margin-bottom: 2em;
+    align-self: flex-end;
+}
+.card-style-left{
+    min-height: 3rem;
+    width: 15rem;
+    margin-bottom: 2em;
+    align-self: flex-start;
+
+}

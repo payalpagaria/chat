@@ -1,0 +1,26 @@
+.Signup-card-outline-container{
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+}
+.Signup-card-outline{
+    width: 50vw;
+    height:60vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.textfield-style{
+    width:26vw !important;
+}
+.textfield-style-box{
+    width:26vw !important;
+}
+.submit-btn{
+    width:26vw !important;
+
+}

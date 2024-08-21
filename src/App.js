@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Signup from './Signup/Signup';
+import Login from './Login/Login';
+import ChatWindow from './ChatWindow/ChatWindow';
+import {Routes,Route, BrowserRouter as Router} from 'react-router-dom'
+import { useState } from 'react';
+import { Typography } from '@mui/material';
 function App() {
+  const [user,setUser]=useState()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+          <Routes>
+              <Route path="/" element={<Login/>}/>
+              <Route path="/signup" element={<Signup user={user} setUser={setUser}/>}/>
+              <Route path="/" element={<Login user={user} setUser={setUser}/>}/>
+
+              <Route path="/ChatWindow" element={<ChatWindow user={user} setUser={setUser}/>}/>
+
+          </Routes>
+      </Router>     
+    </>
   );
 }
 

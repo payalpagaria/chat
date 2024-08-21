@@ -1,0 +1,14 @@
+.chatWindow-outline-box{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+   
+ 
+}
+.chatWinodw-paper{
+
+    height: 90vh;
+    width: 70vw;
+    display: flex !important;
+
+}
